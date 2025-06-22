@@ -38,6 +38,15 @@ A RESTful API for managing books, borrowing books, and tracking borrowing histor
    ```
 4. The application will start on port 8080 by default
 
+### Running with Docker
+1. Install Docker and Docker Compose
+2. Navigate to the project directory
+3. Run the application using Docker Compose:
+    ```
+    docker-compose up --build
+    ```
+4. The application will start on port 8080 by default
+
 ## API Endpoints
 
 ### Book Management
